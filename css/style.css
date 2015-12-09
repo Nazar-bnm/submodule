@@ -1,0 +1,272 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.wrapper-page {
+	width: 1160px;
+	margin: auto;
+	padding: 100px 0 0;
+}
+
+.wrapper-page:nth-last-child(2) {
+	border-bottom: 1px solid #0088C0;
+}
+
+.wrapper-block {
+	margin-bottom: 57px;
+}
+
+.wrapper-block .heading {
+	font-size: 38px;
+	font-weight: 700;
+	color: #0088C0;
+	padding: 9px 5px;
+	margin-bottom: 30px;
+}
+
+/* block-description classes */
+
+.block-description {
+	font-size: 24px;
+}
+
+.block-description .description {
+	padding: 0 60px 0 5px;
+	margin-bottom: 9px;
+	line-height: 25px;
+}
+
+.block-description .description-list {
+	padding-right: 40px;
+}
+
+.block-description .description-list li {
+	padding: 3px;
+	line-height: 30px;
+}
+
+/* block image */
+
+.img-wrapper {
+	width: 97.5%;
+	float: right;
+}
+
+.img-wrapper img {
+	width: 100%;
+}
+
+/* block footer-first-page */
+
+.footer-first-page {
+	border-top: 1px solid #0088C0;
+	padding: 45px 0;
+}
+
+.footer-first-page .download {
+	font-size: 24px;
+	padding: 7px 40px;
+	margin-left: -40px;
+	background-image: url(../images/exclamation-mark.png);
+	background-repeat: no-repeat;
+	background-size: 32px;
+}
+
+.footer-first-page .download a {
+	text-decoration: none;
+	color: #0088C0;
+}
+
+.footer-first-page .download a:hover {
+	text-decoration: underline;
+}
+
+/* block licensing */
+
+.licensing {
+	margin-bottom: 20px;
+	font-size: 20px;	
+}
+
+.licensing .heading {
+	font-size: 38px;
+	font-weight: 700;
+	color: #0088C0;
+	padding: 9px 5px;
+	margin-bottom: 30px;
+}
+
+.licensing .wrapper-iteam {
+	height: 155px;
+	margin-bottom: 40px;
+}
+
+.licensing .licensing-iteam {
+	float: left;
+	border-right: 1px solid #A8A9AD;
+	height: 100%;
+}
+
+.licensing .licensing-iteam:last-child {
+	border: none;
+}
+
+.licensing .licensing-iteam .section-heading {	
+	font-weight: bold;
+	background-color: #C7DFF0;
+	padding: 22px 15px;
+}
+
+.licensing .licensing-iteam .appointment {	
+	padding: 22px 15px;
+	max-width: 263px;
+}
+
+.licensing .licensing-description {
+	width: 60%;
+}
+
+/* customers classes*/
+
+
+.customers-block {
+	margin-bottom: 35px;
+	border-bottom: 1px solid #A8A9AD;
+	padding-bottom: 38px;
+}
+
+.customers-block .customers-images {
+	margin-bottom: 50px;
+}
+
+.customers-block .customers-images img {
+	width: 100%;
+}
+
+.customers-block .reviews {
+	font-size: 24px;
+	padding-right: 50px;
+}
+
+.customers-block .reviews:last-child {
+	padding-right: 0;
+	padding-left: 30px;
+}
+
+.customers-block .reviews .reviews-text {
+	margin-bottom: 20px;
+}
+
+.customers-block .user {
+	float: right;
+	font-size: 22px;
+	font-weight: 300;
+	background-image: url(../images/twitter-icon.png);
+	background-repeat: no-repeat;
+	background-size: 27px;
+	margin-left: -27px;
+	padding-left: 30px;
+}
+
+/* footer-fourth-page classes */
+
+.footer-fourth-page {
+	padding: 0 140px;
+}
+
+.footer-fourth-page .qr-code {
+	width: 190px;
+	float: left;
+	margin-bottom: 30px;
+}
+
+.footer-fourth-page .qr-code img {
+	width: 100%;
+}
+
+.footer-fourth-page .download-wrapper {
+	float: left;
+	font-size: 24px;
+	padding: 47px 90px;
+}
+
+.footer-fourth-page .download-wrapper .downloads-link a {
+	text-decoration: none;
+	color: #0088C0;
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.footer-fourth-page .download-wrapper .downloads-link a:hover {
+	text-decoration: underline;
+}
+
+.footer-fourth-page .social {
+	clear: both;
+	margin-bottom: 50px;
+	padding: 14px;
+}
+
+.footer-fourth-page .social .twitter, .rss {
+	background-image: url(../images/twitter-icon.png);
+	background-repeat: no-repeat;
+	background-size: 42px;
+	background-position: 0px 18px;
+	padding: 22px 60px;
+}
+
+.footer-fourth-page .social .rss {
+	background-image: url(../images/rss.png);
+	background-size: 36px;
+}
+
+.footer-fourth-page .social .twitter a, .rss a {
+	text-decoration: none;
+	font-size: 22px;
+	color: #000;
+}
+
+.footer-fourth-page .social .twitter a:hover, .rss a:hover {
+	text-decoration: underline;
+}
+
+/* contacts classes */
+
+.contacts {
+	padding: 14px;
+	margin-bottom: 50px;
+}
+
+.contacts .contacts-iteam {
+	float: left;
+	width: 270px;
+	padding-right: 50px;
+}
+
+.contacts .contacts-iteam:nth-last-child(2) {
+	width: 215px;
+	padding-right: 20px;
+}
+
+.contacts .contacts-iteam:last-child {
+	padding-top: 37px;
+}
+
+.contacts .heading-contant {
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.contacts .retreat {
+	margin-bottom: 5px;
+}
+
+.contacts .email a {
+	text-decoration: none;
+	color: #000;
+}
+
+.contacts .email a:hover {
+	text-decoration: underline;
+}
